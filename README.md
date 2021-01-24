@@ -1,4 +1,4 @@
-# Ultradmin
+# Hammerhead
 
 The ultimate administration bot for your Discord guild.
 
