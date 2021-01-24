@@ -1,0 +1,6 @@
+.vscode/
+logs/*.log
+node_modules/
+bot.db
+package-lock.json
+yarn.lock

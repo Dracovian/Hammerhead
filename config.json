@@ -1,0 +1,19 @@
+{
+    "version": {
+        "major": 0,
+        "minor": 1,
+        "patch": 1
+    },
+    
+    "port": 5555,
+    "host": "0.0.0.0",
+    "headers": {
+        "X-Frame-Options": "deny",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; child-src 'none'; frame-src 'none'; frame-ancestors 'none'",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Referrer-Policy": "same-origin",
+        "Feature-Policy": "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; speaker 'none'; usb 'none'; vibrate 'none'; vr 'none'"
+    }
+}
